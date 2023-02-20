@@ -1,4 +1,35 @@
 #hero {
     background-image: linear-gradient(to bottom, #FFB347, #FFCC33);
-    height: 490px;
-}
+    height: 600px;
+    display: flex;
+  }
+  
+  .hero-article {
+    padding-top: 80px;
+  }
+  
+  .hero-article h1 {
+    font-size: 3.875rem;
+    color: white;
+  }
+  
+  .background-opacity {
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 223px;
+    width: 396px;
+  }
+  
+  .background-opacity p{
+    text-align: left;
+    opacity: 1;
+    color: white;
+  }
+  
+  #hero img {
+    width: 674px;
+    height: 450px;
+    border-radius: 50px; 
+    margin-top: 80px;
+    margin-right: 300px;
+  }
+  

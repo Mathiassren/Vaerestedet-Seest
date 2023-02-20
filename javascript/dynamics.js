@@ -12,3 +12,5 @@ colorElements.forEach(colorElement => {
     
   });
 });
+
+/*Image slider*/

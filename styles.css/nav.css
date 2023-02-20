@@ -1,0 +1,75 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    height: 129px;
+    background-color: #E8E8E8;
+}
+
+.nav-links {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 2.813rem;
+    color: #0C7DFF;
+    font-weight: bold;
+}
+
+/*Background colorlist for list items*/
+/*Yellow*/
+.color-F5B64A {
+    background-color: #F5B64A;
+    width: 151px;
+    height: 95px;
+    margin-top: 34px;
+}
+
+/*Orange*/
+.color-FE5225 {
+    background-color: #FE5225;
+    width: 151px;
+    height: 95px;
+    margin-top: 34px;
+}
+
+
+/*Green*/ 
+.color-6ACB3A {
+    background-color: #6ACB3A;
+    width: 151px;
+    height: 95px;
+    margin-top: 34px;
+}
+
+/*baby blue*/
+.color-3AA3CB {
+    background-color: #3AA3CB;
+    width: 151px;
+    height: 95px;
+    margin-top: 34px;
+}
+
+/*Purple*/
+.color-CB3AA9 {
+    background-color: #CB3AA9;
+    width: 151px;
+    height: 95px;
+    margin-top: 34px;
+    transition: height 0.5s ease-in-out, margin-top 0.5s ease-in-out;
+}
+
+/*ease in/out 0.5s*/
+.color-F5B64A, .color-FE5225, .color-6ACB3A, .color-3AA3CB, .color-CB3AA9 {
+    transition: height 0.5s ease-in-out, margin-top 0.5s ease-in-out;
+    font-size: 1.625rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 33px;
+}

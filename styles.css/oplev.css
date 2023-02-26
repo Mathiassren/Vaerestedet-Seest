@@ -1,0 +1,67 @@
+#explore {
+  background-color: #66a9f5;
+  height: 600px;
+}
+
+.explore-article {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.explore-article h1 {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 28px;
+  padding-top: 113px;
+}
+
+.explore-article p {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  width: 209px;
+}
+
+/*Spheres*/
+.spheres {
+  height: 609px;
+}
+
+.sphere-container {
+  max-width: 500px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 100px;
+  left: 300px;
+}
+
+.sphere2 {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  bottom: 500px;
+  left: 600px;
+  z-index: 2;
+}
+
+.sphere3 {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  bottom: 900px;
+  left: 580px;
+  z-index: 3;
+}
+
+.sphere4 {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  bottom: 1290px;
+  left: 500px;
+  z-index: 1;
+}

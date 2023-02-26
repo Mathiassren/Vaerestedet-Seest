@@ -1,10 +1,11 @@
 /*Imports*/
 @import url(/styles.css/nav.css);
 @import url(/styles.css/hero.css);
+@import url(/styles.css/oplev.css);
 
 /*global styles*/
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box; /*undersøg denne attribut*/
 }

@@ -1,0 +1,14 @@
+#facilities {
+    height: 974px;
+    background-color: #E1850C;
+}
+
+.facilities-section {
+    width: 262px;
+    height: 648px;
+    background-color: #277B8D;
+    display: flex;
+    position: relative;
+    bottom: 90px;
+    left: 143px;
+}

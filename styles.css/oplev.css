@@ -32,7 +32,6 @@
   max-width: 500px;
   margin: 0 auto;
   position: relative;
-  bottom: 100px;
   left: 300px;
 }
 
@@ -41,7 +40,7 @@
   margin: 0 auto;
   display: flex;
   position: relative;
-  bottom: 500px;
+  bottom: 400px;
   left: 600px;
   z-index: 2;
 }
@@ -51,7 +50,7 @@
   margin: 0 auto;
   display: flex;
   position: relative;
-  bottom: 900px;
+  bottom: 800px;
   left: 580px;
   z-index: 3;
 }
@@ -61,7 +60,7 @@
   margin: 0 auto;
   display: flex;
   position: relative;
-  bottom: 1290px;
+  bottom: 1180px;
   left: 500px;
   z-index: 1;
 }

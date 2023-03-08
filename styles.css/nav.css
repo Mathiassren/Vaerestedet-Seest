@@ -1,75 +1,106 @@
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 8vh;
-    height: 129px;
-    background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #ffffff;
+
+}
+
+.nav-width {
+  background-color: #3aa3cb;
+}
+
+.nav-contact {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  min-height: 2vh;
+  max-width: 1080px;
+  margin: auto;
+
+}
+
+.nav-contact div {
+  display: flex;
+  gap: 20px;
 }
 
 .nav-links {
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-    justify-content: space-around;
-    cursor: pointer;
+ 
+}
+
+.nav-links, a {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-around;
+  list-style: none;
+  cursor: pointer;
+  color: white;
 }
 
 .logo {
-    font-size: 2.813rem;
-    color: #0C7DFF;
-    font-weight: bold;
+  font-size: 2.813rem;
+  color: #0c7dff;
+  font-weight: bold;
+  cursor: pointer;
+  max-width: 1080px;
+  margin: auto;
 }
 
 /*Background colorlist for list items*/
 /*Yellow*/
 .color-F5B64A {
-    background-color: #F5B64A;
-    width: 151px;
-    height: 95px;
-    margin-top: 34px;
+  background-color: #f5b64a;
+  width: 151px;
+  height: 95px;
+  margin-top: 34px;
+  border-radius: 24px 0px 0px 0px;
 }
 
 /*Orange*/
 .color-FE5225 {
-    background-color: #FE5225;
-    width: 151px;
-    height: 95px;
-    margin-top: 34px;
+  background-color: #fe5225;
+  width: 151px;
+  height: 95px;
+  margin-top: 34px;
 }
 
-
-/*Green*/ 
+/*Green*/
 .color-6ACB3A {
-    background-color: #6ACB3A;
-    width: 151px;
-    height: 95px;
-    margin-top: 34px;
+  background-color: #6acb3a;
+  width: 151px;
+  height: 95px;
+  margin-top: 34px;
 }
 
 /*baby blue*/
 .color-3AA3CB {
-    background-color: #3AA3CB;
-    width: 151px;
-    height: 95px;
-    margin-top: 34px;
+  background-color: #3aa3cb;
+  width: 151px;
+  height: 95px;
+  margin-top: 34px;
 }
 
 /*Purple*/
 .color-CB3AA9 {
-    background-color: #CB3AA9;
-    width: 151px;
-    height: 95px;
-    margin-top: 34px;
-    transition: height 0.5s ease-in-out, margin-top 0.5s ease-in-out;
+  background-color: #cb3aa9;
+  width: 151px;
+  height: 95px;
+  margin-top: 34px;
+  transition: height 0.5s ease-in-out, margin-top 0.5s ease-in-out;
+  border-radius: 0px 24px 0px 0px;
 }
 
 /*ease in/out 0.5s*/
-.color-F5B64A, .color-FE5225, .color-6ACB3A, .color-3AA3CB, .color-CB3AA9 {
-    transition: height 0.5s ease-in-out, margin-top 0.5s ease-in-out;
-    font-size: 1.625rem;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    padding-top: 33px;
+.color-F5B64A,
+.color-FE5225,
+.color-6ACB3A,
+.color-3AA3CB,
+.color-CB3AA9 {
+  transition: height 0.5s ease-in-out, margin-top 0.5s ease-in-out;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 33px;
 }

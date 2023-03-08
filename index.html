@@ -4,39 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/123e803ad1.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="styles.css/global.css" />
     <script src="/javascript/dynamics.js" defer></script>
     <title>Værestedet Seest</title>
   </head>
   <body>
+    <section id="nav-contact">
+      <i class="fa-solid fa-phone"></i>
+    </section>
     <nav>
       <div class="logo">Værestedet Seest</div>
       <ul class="nav-links">
-        <li class="color-F5B64A"><a href="#"></a>Hjem</li>
+        <li class="color-F5B64A"><a href="#"></a>Forside</li>
         <li class="color-FE5225"><a href="#"></a>Om os</li>
         <li class="color-6ACB3A"><a href="#"></a>Galleri</li>
         <li class="color-3AA3CB"><a href="#"></a>Madplan</li>
-        <li class="color-CB3AA9"><a href="#"></a>Kontakt</li>
+        <li class="color-CB3AA9"><a href="/contact.html"></a>Kontakt</li>
       </ul>
     </nav>
     <main>
       <section id="hero">
         <article class="hero-article">
-          <h1>Velkommen</h1>
-          <div class="background-opacity">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Distinctio nihil non aspernatur, facere sed dolores animi dicta ut
-              earum odit. Lorem ipsum, dolor sit amet consectetur adipisicing
-              elit. Distinctio nihil non aspernatur, facere sed dolores animi
-              dicta ut earum odit. Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Distinctio nihil non aspernatur, facere sed
-              dolores animi dicta ut earum odit. Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Distinctio nihil non aspernatur,
-              facere sed dolores animi dicta ut earum odit.
-            </p>
-          </div>
+          <h1>
+            Værestedet Seest <br />
+            Fritidsordning
+          </h1>
         </article>
         <img src="/assets/Officecollege.jpg" alt="Lady in office chair" />
       </section>
@@ -50,7 +67,6 @@
             sequi dolorem itaque qui dolor voluptas ex sint. Harum ad velit,
             adipisci quis ea laudantium cumque ducimus sed esse minus, animi
             cupiditate nesciunt, dignissimos excepturi commodi. Vel enim
-          
           </p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
@@ -58,7 +74,6 @@
             delectus voluptatibus aperiam corporis adipisci repellat rem at.
             Deserunt quaerat voluptate iure beatae quia explicabo illo et
             doloribus vitae ipsa, dicta minus ullam voluptatum nihil amet in.
-           
           </p>
         </article>
         <div class="sphere-container">
@@ -66,28 +81,75 @@
           <img src="/assets/Explore spheres/Ellipse 10.png" alt="" />
           <img src="/assets/Explore spheres/Ellipse 8.png" alt="" />
         </div>
-        
-         <img
-            class="sphere2"
-            src="/assets/Explore spheres/Ellipse 6.png"
-            alt=""
-          />
-          <img class="sphere3" src="/assets/Explore spheres/Hallen.png" alt="" />
-          <img class="sphere4" src="/assets/Explore spheres/Ellipse 4.png" alt="">
+
+        <img
+          class="sphere2"
+          src="/assets/Explore spheres/Ellipse 6.png"
+          alt=""
+        />
+        <img class="sphere3" src="/assets/Explore spheres/Hallen.png" alt="" />
+        <img
+          class="sphere4"
+          src="/assets/Explore spheres/Ellipse 4.png"
+          alt=""
+        />
       </section>
       <!--Gallery interaction-->
       <section id="facilities">
+        <!--Icon box-->
         <div class="facilities-section">
-          <a href=""><i class="fa-solid fa-person-running"></i></a>
-          <a href=""></a>
-          <a href=""></a>
+          <div class="facilities-clickon">
+            <a href=""><i class="fa-solid fa-person-running"></i></a>
+            <p>Aktiviteter</p>
+          </div>
+
+          <div class="facilities-clickon">
+            <a href=""><i class="fa-solid fa-utensils"></i></a>
+            <p>Madplan</p>
+          </div>
+          <div class="facilities-clickon">
+            <a href=""><i class="fa-solid fa-clock"></i></a>
+            <p>Åbningstider</p>
+          </div>
         </div>
         <div class="gallery-section">
-          <img src="" alt="">
-          <img src="" alt="">
-          <img src="" alt="">
+          <div class="box1">
+            <img src="/assets/Tv rum 1.png" alt="" />
+            <div class="textbox1">
+              <h3>Sport</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Possimus nulla modi blanditiis, voluptatibus atque aliquid id
+                facilis voluptatem sunt similique.
+              </p>
+            </div>
+          </div>
+          <div class="box2">
+            <img src="/assets/Gerderobe.png" alt="" />
+            <div class="textbox2">
+              <h3>Madplan</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Asperiores totam qui facere optio voluptatibus voluptas suscipit
+                alias consectetur non quas?
+              </p>
+            </div>
+          </div>
+          <div class="box3">
+            <img src="/assets/Billiard rum.png" alt="" />
+            <div class="textbox3">
+              <h3>Åbningstider</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt deleniti quas nisi ab rem quam reiciendis delectus
+                necessitatibus veniam recusandae?
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </main>
+    <!--Footer-->
+    <footer></footer>
   </body>
 </html>

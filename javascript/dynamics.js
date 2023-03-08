@@ -10,6 +10,7 @@ colorElements.forEach(colorElement => {
     colorElement.style.height = '95px';
     colorElement.style.marginTop = '34px';
     
+    
   });
 });
 

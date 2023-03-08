@@ -1,14 +1,77 @@
 #facilities {
-    height: 974px;
-    background-color: #E1850C;
+  height: 974px;
+  background-color: #e1850c;
 }
 
 .facilities-section {
-    width: 262px;
-    height: 648px;
-    background-color: #277B8D;
-    display: flex;
-    position: relative;
-    bottom: 90px;
-    left: 143px;
+  width: 262px;
+  height: 648px;
+  background-color: #277b8d;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  bottom: 90px;
+  left: -600px;
+  margin: auto;
+}
+
+.facilities-clickon {
+  display: block;
+  font-size: 80px;
+  margin: auto;
+  text-align: center;
+}
+
+.facilities-clickon a {
+  color: #e1850c;
+}
+
+.facilities-clickon p {
+  font-size: 30px;
+  text-align: center;
+  color: #e1850c;
+}
+
+.gallery-section {
+  position: relative;
+  height: 521px;
+  display: flex;
+  gap: 31px;
+  max-width: 1080px;
+  margin: 0 auto;
+  left: 250px;
+  bottom: 600px;
+}
+
+.gallery-box {
+  background-color: #277b8d;
+  width: 50px;
+}
+
+.textbox1,
+.textbox2,
+.textbox3 {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 251px;
+  height: 223px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.textbox1 h3,
+.textbox2 h3,
+.textbox3 h3,
+.textbox1 p,
+.textbox2 p,
+.textbox3 p {
+  /* set styles for h3 and p tags */
+  color: white;
+  margin-top: 35px;
+}
+
+.textbox1 h3::after,
+.textbox2 h3::after,
+.textbox3 h3::after {
+  /* reset styles for the ::after pseudo-element of the h3 tags */
+  display: none;
 }

@@ -1,0 +1,34 @@
+#map-background-color {
+  background-color: #ffffff;
+  height: 1100px;
+}
+
+.contact-information {
+  color: #6eba01;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  max-width: 1080px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-information i {
+  padding-top: 50px;
+  font-size: 60px;
+}
+
+.contact-information div p {
+  color: black;
+  font-weight: bold;
+  padding-top: 16px;
+}
+
+.contact-information div p:nth-child(2) {
+  color: black;
+}
+
+
+.contact-information div p {
+  color: #b1b1b1;
+}

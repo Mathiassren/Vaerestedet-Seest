@@ -4,11 +4,10 @@ nav {
   align-items: center;
   min-height: 8vh;
   background-color: #ffffff;
-
 }
 
 .nav-width {
-  background-color: #3aa3cb;
+  background-color: #ebeeed;
 }
 
 .nav-contact {
@@ -16,21 +15,24 @@ nav {
   display: flex;
   align-items: center;
   min-height: 2vh;
-  max-width: 1080px;
+  max-width: 1350px;
   margin: auto;
+}
 
+.nav-contact i {
+  Color: #0c7dff;
 }
 
 .nav-contact div {
   display: flex;
-  gap: 20px;
 }
 
-.nav-links {
- 
+.nav-contact div p {
+  padding: 0 20px 0px 5px;
 }
 
-.nav-links, a {
+.nav-links,
+a {
   display: flex;
   text-decoration: none;
   justify-content: space-around;
@@ -44,8 +46,7 @@ nav {
   color: #0c7dff;
   font-weight: bold;
   cursor: pointer;
-  max-width: 1080px;
-  margin: auto;
+  padding-left: 80px;
 }
 
 /*Background colorlist for list items*/
@@ -103,4 +104,25 @@ nav {
   font-weight: bold;
   text-align: center;
   padding-top: 33px;
+}
+
+.fa-facebook {
+  cursor: pointer;
+}
+
+.ml16 {
+  color: #000000;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  overflow: hidden;
+  padding-left: 140px;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+
 }

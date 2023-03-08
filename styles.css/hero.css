@@ -7,15 +7,6 @@
 .hero-article {
   max-width: 1080px;
   margin: auto;
-  padding-left: 40px;
-}
-
-.hero-article h1 {
-  font-size: 3.875rem;
-  text-align: left;
-  color: white;
-  margin: auto;
-  max-width: 1080px;
 }
 
 #hero img {
@@ -24,15 +15,41 @@
   border-radius: 50px;
   margin-top: 80px;
   position: relative;
-  right: 20px;
   margin: auto;
+  left: 35px;
+  box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
+  -webkit-box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
+  -moz-box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
 }
 
-h1,
-p,
-a,
-li,
-h3,
-.logo {
-  font-family: "noto sans";
+button {
+  color: #ffffff;
+  background-color: #2d63c8;
+  font-size: 19px;
+  border: 1px solid #2d63c8;
+  padding: 15px 50px;
+  cursor: pointer;
+ margin-left: 225px;
+ border-radius: 24px;
+}
+
+/*H1 Animation*/
+
+.ml16 {
+  color: #402d2d;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  overflow: hidden;
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 110px;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+
 }

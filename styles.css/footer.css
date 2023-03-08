@@ -1,4 +1,12 @@
 footer {
-    background-color: #C90F0F;
-    height: 137px;
+    background-color: #466585;
+    height: 50px;
+}
+
+footer p {
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 15px;
+    color: #9aaabb;
+    
 }

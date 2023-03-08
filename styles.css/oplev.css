@@ -4,9 +4,8 @@
 }
 
 .explore-article {
-  max-width: 1080px;
+  max-width: 1400px;
   margin: auto;
-  
 }
 
 .explore-article h1 {
@@ -19,9 +18,10 @@
 
 .explore-article p {
   display: inline-block;
-  width: 48%;
   vertical-align: top;
-  width: 209px;
+  width: 200px;
+  font-weight: 400;
+  color: white;
 }
 
 /*Spheres*/
@@ -35,6 +35,7 @@
   position: relative;
   left: 400px;
   bottom: 50px;
+  
 }
 
 .sphere2 {
@@ -42,9 +43,10 @@
   margin: 0 auto;
   display: flex;
   position: relative;
-  bottom: 500px;
+  bottom: 400px;
   left: 600px;
   z-index: 2;
+  
 }
 
 .sphere3 {
@@ -52,7 +54,7 @@
   margin: 0 auto;
   display: flex;
   position: relative;
-  bottom: 900px;
+  bottom: 800px;
   left: 580px;
   z-index: 3;
 }
@@ -62,7 +64,7 @@
   margin: 0 auto;
   display: flex;
   position: relative;
-  bottom: 1280px;
+  bottom: 1180px;
   left: 500px;
   z-index: 1;
 }

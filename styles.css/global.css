@@ -12,4 +12,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; /*undersøg denne attribut*/
+  font-family: Tahoma, Verdana, Segoe;
 }
+

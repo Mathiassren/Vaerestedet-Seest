@@ -31,29 +31,54 @@
     />
     <link rel="stylesheet" href="styles.css/global.css" />
     <script src="/javascript/dynamics.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <title>Værestedet Seest</title>
   </head>
   <body>
-    <section id="nav-contact">
-      <i class="fa-solid fa-phone"></i>
-    </section>
+    <div class="nav-width">
+      <section class="nav-contact">
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <p>75 50 27 05</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <p>Kamseest@hotmail.dk</p>
+        </div>
+        <div>
+          <a
+            href="https://www.facebook.com/groups/2195454857443857?hoisted_section_header_type=recently_seen&multi_permalinks=3433158543673476"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+      </section>
+    </div>
     <nav>
       <div class="logo">Værestedet Seest</div>
       <ul class="nav-links">
-        <li class="color-F5B64A"><a href="#"></a>Forside</li>
-        <li class="color-FE5225"><a href="#"></a>Om os</li>
-        <li class="color-6ACB3A"><a href="#"></a>Galleri</li>
-        <li class="color-3AA3CB"><a href="#"></a>Madplan</li>
-        <li class="color-CB3AA9"><a href="/contact.html"></a>Kontakt</li>
+        <li class="color-F5B64A" onclick="location.href='/'">
+          <a href="/">Forside</a>
+        </li>
+        <li class="color-FE5225" onclick="location.href='/om-os'">
+          <a href="/om-os">Om os</a>
+        </li>
+        <li class="color-6ACB3A" onclick="location.href='/galleri'">
+          <a href="/galleri">Galleri</a>
+        </li>
+        <li class="color-3AA3CB" onclick="location.href='/madplan'">
+          <a href="/madplan">Madplan</a>
+        </li>
+        <li class="color-CB3AA9" onclick="location.href='/contact.html'">
+          <a href="/contact.html">Kontakt</a>
+        </li>
       </ul>
     </nav>
     <main>
+      <!--Hero-->
       <section id="hero">
         <article class="hero-article">
-          <h1>
-            Værestedet Seest <br />
-            Fritidsordning
-          </h1>
+          <h1 class="ml16">Værestedet Seest</h1>
+          <button type="button" name="myButton">Læs mere</button>
         </article>
         <img src="/assets/Officecollege.jpg" alt="Lady in office chair" />
       </section>
@@ -114,42 +139,42 @@
         </div>
         <div class="gallery-section">
           <div class="box1">
-            <img src="/assets/Tv rum 1.png" alt="" />
             <div class="textbox1">
-              <h3>Sport</h3>
+              <h3>Aktiviteter</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Possimus nulla modi blanditiis, voluptatibus atque aliquid id
-                facilis voluptatem sunt similique.
+                Klik på "Aktiviteter" for at se hvilke daglige aktiviteter
+                børnene kan deltage i
               </p>
             </div>
           </div>
           <div class="box2">
-            <img src="/assets/Gerderobe.png" alt="" />
             <div class="textbox2">
               <h3>Madplan</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Asperiores totam qui facere optio voluptatibus voluptas suscipit
-                alias consectetur non quas?
+                Klik på "Madplan" i boksen til venstre for at se den daglige
+                madplan.
               </p>
             </div>
           </div>
           <div class="box3">
-            <img src="/assets/Billiard rum.png" alt="" />
             <div class="textbox3">
               <h3>Åbningstider</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nesciunt deleniti quas nisi ab rem quam reiciendis delectus
-                necessitatibus veniam recusandae?
-              </p>
+              <p>Mandag 14-17</p>
+              <p>Tirsdag 14-17</p>
+              <p>Onsdag 14-17</p>
+              <p>Torsdag 14-17</p>
+              <p>Fredag 14-16.30</p>
             </div>
           </div>
         </div>
       </section>
     </main>
     <!--Footer-->
-    <footer></footer>
+    <footer>
+      <p>
+        Copyright 1994 Værestedet Seest | Tlf. 75 53 60 09 | CVR.nr: 1750 4533|
+        EAN: 5790 0025 84053
+      </p>
+    </footer>
   </body>
 </html>

@@ -15,12 +15,13 @@ nav {
   display: flex;
   align-items: center;
   min-height: 2vh;
-  max-width: 1350px;
+  max-width: 1080px;
   margin: auto;
 }
 
 .nav-contact i {
   Color: #0c7dff;
+  margin-top: 3px;
 }
 
 .nav-contact div {
@@ -46,7 +47,8 @@ a {
   color: #0c7dff;
   font-weight: bold;
   cursor: pointer;
-  padding-left: 80px;
+  max-width: 1080px;
+  margin: auto;
 }
 
 /*Background colorlist for list items*/

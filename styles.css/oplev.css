@@ -4,7 +4,8 @@
 }
 
 .explore-article {
-  max-width: 1400px;
+  padding: 80px 20px 0 20px;
+  max-width: 1080px;
   margin: auto;
 }
 
@@ -13,58 +14,54 @@
   color: white;
   font-weight: bold;
   padding-bottom: 28px;
-  padding-top: 80px;
 }
 
 .explore-article p {
-  display: inline-block;
-  vertical-align: top;
-  width: 200px;
   font-weight: 400;
   color: white;
 }
 
-/*Spheres*/
+/* Spheres */
+
 .spheres {
   height: 609px;
 }
 
 .sphere-container {
-  max-width: 500px;
+  max-width: 300px;
   margin: 0 auto;
   position: relative;
-  left: 400px;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: 50px;
-  
 }
 
 .sphere2 {
-  max-width: 500px;
+  max-width: 300px;
   margin: 0 auto;
   display: flex;
   position: relative;
   bottom: 400px;
-  left: 600px;
+  left: 0;
   z-index: 2;
-  
 }
 
 .sphere3 {
-  max-width: 500px;
+  max-width: 300px;
   margin: 0 auto;
   display: flex;
   position: relative;
   bottom: 800px;
-  left: 580px;
+  left: 0;
   z-index: 3;
 }
 
 .sphere4 {
-  max-width: 500px;
+  max-width: 300px;
   margin: 0 auto;
   display: flex;
   position: relative;
   bottom: 1180px;
-  left: 500px;
+  left: 0;
   z-index: 1;
 }

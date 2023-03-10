@@ -34,5 +34,3 @@ myButton.addEventListener("click", function () {
   var section = document.getElementById("facilities");
   section.scrollIntoView({ behavior: "smooth", block: "start" });
 });
-
-//Slider

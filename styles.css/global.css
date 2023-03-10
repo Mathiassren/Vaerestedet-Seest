@@ -8,11 +8,12 @@
 @import url(/styles.css/location.css);
 @import url(/styles.css/footer.css);
 @import url(/styles.css/slider.css);
+@import url(/styles.css/@mediaquerys.css);
 /*global styles*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; /*undersøg denne attribut*/
   font-family: Tahoma, Verdana, Segoe;
+  
 }
-

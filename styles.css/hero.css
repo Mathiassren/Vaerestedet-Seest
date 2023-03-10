@@ -9,18 +9,6 @@
   margin: auto;
 }
 
-.hero-article h1 {
-  color: #402d2d;
-  padding: 40px 0;
-  font-weight: 800;
-  font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
-  overflow: hidden;
-  max-width: 1080px;
-  margin: auto;
-  padding-left: 110px;
-}
 
 #hero img {
   width: 674px;
@@ -43,7 +31,6 @@ button {
   padding: 15px 50px;
   cursor: pointer;
  margin-left: 110px;
- border-radius: px;
 }
 
 /*H1 Animation*/

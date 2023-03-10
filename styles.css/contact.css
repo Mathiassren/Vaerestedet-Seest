@@ -1,3 +1,19 @@
+/*Hero*/
+
+.ml20 {
+  color: #402d2d;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  overflow: hidden;
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 110px;
+}
+
+
 #map-background-color {
   background-color: #ffffff;
   height: 1100px;
@@ -31,4 +47,27 @@
 
 .contact-information div p {
   color: #b1b1b1;
+}
+
+.HeroBtn-contact {
+  color: #ffffff;
+  background-color: #2d63c8;
+  font-size: 19px;
+  border: 1px solid #2d63c8;
+  padding: 15px 50px;
+  cursor: pointer;
+ margin-left: 110px;
+}
+
+.ml21 {
+  color: #402d2d;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  overflow: hidden;
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 110px;
 }

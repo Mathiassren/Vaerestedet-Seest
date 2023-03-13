@@ -1,7 +1,5 @@
     @media screen and (min-width: 1024px) {
-        * {
-            
-        }
+      
     /* styles for laptops go here */
     .explore-article {
         max-width: 960px; /* set a fixed max-width for larger screens */
@@ -74,7 +72,7 @@
         margin: 0 auto;
         display: flex;
         position: relative;
-        bottom: 1000px;
+        bottom: 1090px;
         left: 480px;
         z-index: 1;
     }
@@ -100,4 +98,5 @@
         -webkit-box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
         -moz-box-shadow: 7px 7px 26px -2px rgba(105, 104, 104, 0.75);
       }
+
     }

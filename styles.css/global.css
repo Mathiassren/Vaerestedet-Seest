@@ -9,11 +9,12 @@
 @import url(/styles.css/footer.css);
 @import url(/styles.css/slider.css);
 @import url(/styles.css/@mediaquerys.css);
+@import url(/styles.css/price.css);
+@import url(/styles.css/redirectedForm.css);
 /*global styles*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; /*undersøg denne attribut*/
   font-family: Tahoma, Verdana, Segoe;
-  
 }

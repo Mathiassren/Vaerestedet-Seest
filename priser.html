@@ -31,6 +31,7 @@
     />
     <link rel="stylesheet" href="styles.css/global.css" />
     <script src="/javascript/dynamics.js" defer></script>
+    <script src="/javascript/price.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <title>Værestedet Seest</title>
   </head>
@@ -79,14 +80,42 @@
     <!--Hero-->
     <section id="hero">
       <article class="hero-article">
-        <h2 class="ml21">
-          Priser<br />
-        </h2>
-        <button id="HeroBtn-contact" type="button" name="myButton">Se mere</button>
+        <h2 class="ml21">Priser<br /></h2>
+        <button id="HeroBtn-price" type="button" name="myButton">
+          Se mere
+        </button>
       </article>
-
-      <img src="/assets/Værestedet.jpg" alt="Lady in office chair" />
     </section>
+    <!--Priser-->
+    <main>
+      <h1 id="price-h1">Hvad koster det?</h1>
+      <section class="pricelisting">
+        <div class="price-section">
+          <h3>2 dage</h3>
+          <article class="properties">
+            <i class="fa-solid fa-check"
+              ><p>Barnet kan komme 2 valgfrie dage i ugen</p></i
+            >
+            <i class="fa-solid fa-check"><p>Mad inkluderet</p></i>
+            <i class="fa-solid fa-check"><p>Ture inkluderet</p></i>
+          </article>
+          <p class="price">350,-/md</p>
+          <a class="formular" href="#">Udfyld formular</a>
+        </div>
+        <div class="price-section2">
+          <h3>5 dage</h3>
+          <article class="properties">
+            <i class="fa-solid fa-check"
+              ><p>Barnet kan komme alle ugens dage</p></i
+            >
+            <i class="fa-solid fa-check"><p>Mad inkluderet</p></i>
+            <i class="fa-solid fa-check"><p>Ture inkluderet</p></i>
+          </article>
+          <p class="price">450,-/md</p>
+          <a class="formular" href="#">Udfyld formular</a>
+        </div>
+      </section>
+    </main>
     <footer>
       <p>
         Copyright 1994 Værestedet Seest | Tlf. 75 53 60 09 | CVR.nr: 1750 4533|

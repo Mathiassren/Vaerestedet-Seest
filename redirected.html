@@ -30,11 +30,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styles.css/global.css" />
-    <script src="/javascript/redirectedForm.js" defer></script>
+    <script src="/javascript/dynamics.js" defer></script>
+    <script src="/javascript/form.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <title>Værestedet Seest</title>
   </head>
   <body>
+    <!--Contact.css-->
     <div class="nav-width">
       <section class="nav-contact">
         <div>
@@ -59,13 +61,13 @@
     <nav>
       <div class="logo ml16">Værestedet Seest</div>
       <ul class="nav-links">
-        <li class="color-F5B64A" onclick="location.href='/'">
-          <a href="/">Forside</a>
+        <li class="color-F5B64A" onclick="location.href='/index.html'">
+          <a href="/index.html">Forside</a>
         </li>
-        <li class="color-FE5225" onclick="location.href='/om-os'">
-          <a href="/om-os">Om os</a>
+        <li class="color-FE5225" onclick="location.href='/om-os.html'">
+          <a href="/om-os.html">Om os</a>
         </li>
-        <li class="color-6ACB3A" onclick="location.href='/galleri.html'">
+        <li class="color-6ACB3A" onclick="location.href='/gallery.html'">
           <a href="/gallery.html">Galleri</a>
         </li>
         <li class="color-3AA3CB" onclick="location.href='/priser.html'">
@@ -76,24 +78,42 @@
         </li>
       </ul>
     </nav>
-    <!--Hero-->
+    <!--Hero.css-->
     <section id="hero">
       <article class="hero-article">
-        <h2 class="ml20">Kontakt<br /></h2>
-        <button id="HeroBtn-contact" type="button" name="myButton">
-          Se mere
-        </button>
+        <h2 class="ml17">Stedet hvor<br />frihed og leg<br />finder sted</h2>
+        <button id="HeroBtn" type="button" name="myButton">Læs mere</button>
       </article>
     </section>
-    <main>
-      <form class="contactform" action="contactform.php" method="post">
-        <input type="text" name="name" placeholder="Full name" />
-        <input type="text" name="mail" placeholder="Your e-mail" />
-        <input type="text" name="subject" placeholder="Subject" />
-        <textarea name="message" placeholder="Message"></textarea>
-        <button type="submit" name="submit">SEND MAIL</button>
+    <!--Formular-->
+    <section class="contact-scroll" id="contact">
+      <h2>Indmeldelse</h2>
+      <p>
+        Vi er glade for at du/I har valgt at tilmelde dit/Jeres barn i vores
+        Fritidsklub
+      </p>
+      <form name="contact">
+        <input type="text" placeholder="Barnets navn:" name="ContactName" />
+        <input type="text" placeholder="Adresse:" name="ContactAddress" />
+        <input type="text" placeholder="Postnr./by:" name="ContactCity" />
+        <input type="text" placeholder="Fødselsdag" name="ContactBirthday" />
+        <input type="text" placeholder="Skole/klasse:" name="ContactSchool" />
+        <input
+          type="text"
+          placeholder="Mobil/barn:"
+          name="ContactChildMobile"
+        />
+        <input type="text" placeholder="Forældre 1" name="ContactParent1" />
+        <input type="text" placeholder="Forældre 2" name="ContactParent2" />
+        <input type="email" placeholder="Mail" name="ContactEmail1" />
+        <input type="email" placeholder="Mail" name="ContactEmail2" />
+        <input type="text" placeholder="Mobil" name="ContactMobile1" />
+        <input type="text" placeholder="Mobil" name="ContactMobile2" />
+        <button>Send</button>
       </form>
-    </main>
+    </section>
+
+    <!--Footer-->
     <footer>
       <p>
         Copyright 1994 Værestedet Seest | Tlf. 75 53 60 09 | CVR.nr: 1750 4533|

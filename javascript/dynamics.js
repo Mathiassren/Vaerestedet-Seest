@@ -29,8 +29,8 @@ anime.timeline({ loop: false }).add({
 });
 
 // Hero button selection
-var myButton = document.getElementById("HeroBtn");
+let myButton = document.getElementById("HeroBtn");
 myButton.addEventListener("click", function () {
-  var section = document.getElementById("facilities");
+  let section = document.getElementById("facilities");
   section.scrollIntoView({ behavior: "smooth", block: "start" });
 });

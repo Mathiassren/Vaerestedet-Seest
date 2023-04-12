@@ -1,0 +1,32 @@
+.om-os {
+  background-color: azure;
+  display: flex;
+}
+
+.flex-bio {
+  max-width: 1080px;
+  margin: auto;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.flex-bio img {
+  width: 300px;
+  height: 200px;
+}
+
+.reversed img {
+  width: 300px;
+  height: 200px;
+}
+
+.reversed {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.om-os p {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+}

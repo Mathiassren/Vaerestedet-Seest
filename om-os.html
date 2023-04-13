@@ -31,6 +31,7 @@
     />
     <link rel="stylesheet" href="styles.css/global.css" />
     <script src="/javascript/dynamics.js" defer></script>
+    <script src="/javascript/om-os.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <title>Værestedet Seest</title>
   </head>
@@ -81,35 +82,40 @@
       <!--Hero.css-->
       <section id="hero">
         <article class="hero-article">
-          <h2 class="ml17">Stedet hvor<br />frihed og leg<br />finder sted</h2>
-          <button id="HeroBtn" type="button" name="myButton">Læs mere</button>
+          <h2 class="ml17">Om os</h2>
+          <button id="HeroBtn-omos" type="button" name="myButton">
+            Læs mere
+          </button>
         </article>
       </section>
 
       <!--Om os-->
-      <section class="om-os">
+      <section id="om-os">
+        <div class="team">
+          <p>Her kan du se hvem der arbejder i Værestedet Seest</p>
+        </div>
         <div class="flex-bio">
           <img src="/assets/Officecollege.jpg" alt="" />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit,
             consequuntur.
           </p>
-          </div>
+        </div>
 
-          <div class="reversed">
-            <img src="/assets/Officecollege.jpg" alt="" />
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit,
-              consequuntur.
-            </p>
-          </div>
-          <div class="flex-bio">
-            <img src="/assets/Officecollege.jpg" alt="" />
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit,
-              consequuntur.
-            </p>
-          </div>
+        <div class="reversed">
+          <img src="/assets/Officecollege.jpg" alt="" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit,
+            consequuntur.
+          </p>
+        </div>
+
+        <div class="flex-bio">
+          <img src="/assets/Officecollege.jpg" alt="" />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit,
+            consequuntur.
+          </p>
         </div>
       </section>
     </main>
@@ -117,7 +123,6 @@
     <footer>
       <p>
         Copyright 1994 Værestedet Seest | Tlf. 75 53 60 09 | CVR.nr: 1750 4533|
-        EAN: 5790 0025 84053
       </p>
     </footer>
   </body>

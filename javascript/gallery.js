@@ -9,3 +9,13 @@ for (let index = 0; index < smallImages.length; index++) {
     largeImage.src = e.target.src;
   });
 }
+
+//Scroll down
+const galleryBtn = document.getElementById("HeroBtn-gallery");
+const gallerySection = document.getElementById("gallery");
+
+galleryBtn.addEventListener("click", () => {
+  gallerySection.scrollIntoView({ behavior: "smooth" });
+});
+
+console.log(galleryBtn);
